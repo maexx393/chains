@@ -62,11 +62,11 @@ function Home({ changeTheme, theme, sortedChains }) {
   const search = useSearch((state) => state.search);
 
   const addNetwork = () => {
-    window.open('https://github.com/ethereum-lists/chains', '_blank');
+    window.open('https://github.com/hashprotocol/chains', '_blank');
   };
 
   const addRpc = () => {
-    window.open('https://github.com/DefiLlama/chainlist/blob/main/utils/extraRpcs.json', '_blank');
+    window.open('https://github.com/hashprotocol/chainlist/blob/main/utils/extraRpcs.json', '_blank');
   };
 
   const chains = useMemo(() => {
