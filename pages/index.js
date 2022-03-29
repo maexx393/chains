@@ -125,7 +125,7 @@ function Home({ changeTheme, theme, sortedChains }) {
               <div className={classes.socials}>
                 <a
                   className={`${classes.socialButton}`}
-                  href="https://github.com/DefiLlama/chainlist"
+                  href="https://github.com/hashprotocol/chainlist"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -142,7 +142,7 @@ function Home({ changeTheme, theme, sortedChains }) {
 
                 <a
                   className={`${classes.socialButton}`}
-                  href="https://discord.com/invite/buPFYXzDDd"
+                  href="https://discord.com/invite/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
