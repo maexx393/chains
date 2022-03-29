@@ -62,7 +62,7 @@ function Home({ changeTheme, theme, sortedChains }) {
   const search = useSearch((state) => state.search);
 
   const addNetwork = () => {
-    window.open('https://github.com/hashprotocol/chains', '_blank');
+    window.open('https://github.com/hashprotocol/chainlist', '_blank');
   };
 
   const addRpc = () => {
